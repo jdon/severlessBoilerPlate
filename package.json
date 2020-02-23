@@ -1,0 +1,43 @@
+{
+	"name": "serverlessWebpackExample",
+	"version": "1.0.0",
+	"description": "Serverless webpack example using Typescript",
+	"main": "handler.js",
+	"scripts": {
+		"start": "serverless offline start",
+		"lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+		"setup": "sls dynamodb install"
+	},
+	"dependencies": {
+		"source-map-support": "^0.5.10"
+	},
+	"devDependencies": {
+		"@types/aws-lambda": "^8.10.17",
+		"@types/node": "^10.12.18",
+		"@typescript-eslint/eslint-plugin": "2.7.0",
+		"@typescript-eslint/parser": "^2.19.0",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-typescript": "^6.3.1",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-import": "~2.19.1",
+		"eslint-plugin-jest": "^23.6.0",
+		"eslint-plugin-jsx-a11y": "~6.2.3",
+		"eslint-plugin-prettier": "~3.1.2",
+		"eslint-plugin-promise": "~4.2.1",
+		"fork-ts-checker-webpack-plugin": "^3.0.1",
+		"jest": "^25.1.0",
+		"prettier": "^1.19.1",
+		"serverless-domain-manager": "^3.3.1",
+		"serverless-dotenv-plugin": "^2.3.2",
+		"serverless-dynamodb-local": "^0.2.39",
+		"serverless-offline": "^5.12.1",
+		"serverless-webpack": "^5.2.0",
+		"ts-jest": "^25.2.0",
+		"ts-loader": "^5.3.3",
+		"typescript": "^3.2.4",
+		"webpack": "^4.29.0",
+		"webpack-node-externals": "^1.7.2"
+	},
+	"author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+	"license": "MIT"
+}
